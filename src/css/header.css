@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo img{
+  width: 150px;
+}
+.header-mid{
+  font-size: 25px;
+}
+.header-links{
+  display: flex;
+  width: 33%px;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.header-links a{
+  font-size : 25px;
+  margin-right: 10px;
+
+}

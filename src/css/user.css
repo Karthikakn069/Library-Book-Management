@@ -1,0 +1,41 @@
+.user-inner{
+  display: flex;
+  justify-content: center;
+}
+.table-outer{
+  border: 3px solid black;
+  width: 90%;
+}
+td , th{
+  margin: 0px 0px 0px 0px;
+  border: 3px solid black;
+  text-align: center;
+}
+th{
+  font-size: 20px;
+}
+td{
+  font-size: 17px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  margin-left: 73px;
+  margin-bottom: 15px;
+}
+.se-opt{
+  height: 25px;
+  margin-right: 10px;
+}
+.search-input input{
+  height: 19px;
+}
+.search-input button{
+  margin-left: 20px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

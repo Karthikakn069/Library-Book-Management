@@ -1,0 +1,14 @@
+.pagination{
+  display: flex;
+  margin-left: 30px;
+}
+.pagination li{
+  list-style-type: none;
+  margin-left: 10px;
+}
+.pagination button{
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
