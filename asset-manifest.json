@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Library-Book-Management/static/css/main.34d8a708.css",
+    "main.js": "/Library-Book-Management/static/js/main.5562f974.js",
+    "static/js/453.419a5d54.chunk.js": "/Library-Book-Management/static/js/453.419a5d54.chunk.js",
+    "static/media/library book logo.png": "/Library-Book-Management/static/media/library book logo.8d5e7dc3675e3761a3f0.png",
+    "index.html": "/Library-Book-Management/index.html",
+    "main.34d8a708.css.map": "/Library-Book-Management/static/css/main.34d8a708.css.map",
+    "main.5562f974.js.map": "/Library-Book-Management/static/js/main.5562f974.js.map",
+    "453.419a5d54.chunk.js.map": "/Library-Book-Management/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d8a708.css",
+    "static/js/main.5562f974.js"
+  ]
+}
