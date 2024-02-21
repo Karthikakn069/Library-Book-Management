@@ -8,20 +8,20 @@ import User from './pages/User';
 import Admin from './pages/Admin';
 
 const router = createBrowserRouter([
-  {
-    path:'/',
-    element : <Home />,
-    children :[
-      {
-        path :'/user',
-        element : <User/>,
-      },
-      {
-        path : '/admin' ,
-        element : <Admin />,
-      }
-    ]
-  },
+  // {
+  //   path:'/',
+  //   element : <Home />,
+  //   children :[
+  //     {
+  //       path :'/user',
+  //       element : <User/>,
+  //     },
+  //     {
+  //       path : '/admin' ,
+  //       element : <Admin />,
+  //     }
+  //   ]
+  // },
   {
     path:'/Library-Book-Management',
     element : <Home />,
