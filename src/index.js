@@ -37,22 +37,22 @@ const router = createBrowserRouter([
   // {
   //   path : '/admin' ,
   //   element : <Admin />,
-  // }
+  // },
 
-  {
-    path:'/Library-Book-Management',
-    element : <Home />,
-    children :[
-      {
-        path :'/user',
-        element : <User/>,
-      },
-      {
-        path : '/admin' ,
-        element : <Admin />,
-      }
-    ]
-  }
+  // {
+  //   path:'/Library-Book-Management',
+  //   element : <Home />,
+  //   children :[
+  //     {
+  //       path :'/user',
+  //       element : <User/>,
+  //     },
+  //     {
+  //       path : '/admin' ,
+  //       element : <Admin />,
+  //     }
+  //   ]
+  // }
 
 ])
 
