@@ -18,5 +18,30 @@
 .header-links a{
   font-size : 25px;
   margin-right: 10px;
-
+}
+.d-none{
+  display: none;
+}
+.d-show{
+  position: fixed;
+  left: 650px;
+  top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+}
+.ad-input{
+  display: flex;
+  flex-direction: column;
+}
+.admin-button button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 3px 7px 3px 7px;
+  border-radius: 5px;
+  cursor: pointer;
 }

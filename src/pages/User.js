@@ -2,7 +2,7 @@ import React from "react";
 import Axios from "axios";
 import { useState , useEffect } from "react";
 import Pagination from "./Pagination";
-import "../css/user.css"
+import "../css/user.css";
 
 function User(){
   const [data , setData] = useState([]);
@@ -17,7 +17,7 @@ function User(){
   //const currentRecords = data.slice(firstRecord , lastRecord);
   const [currentRecords , setCurrentRecords] = useState([]);
   useEffect(()=>{
-    Axios.get('http://localhost:3001/get_books').then((response)=>{
+    Axios.get('http://localhost:3002/get_books').then((response)=>{
       setData(response.data);
       setPermData(response.data)
     });
@@ -36,7 +36,7 @@ function User(){
       return setData(firows);
     }
     else{
-        Axios.get('http://localhost:3001/get_books').then((response)=>{
+        Axios.get('http://localhost:3002/get_books').then((response)=>{
         setData(response.data);
         setCurrentRecords(response.data.slice(firstRecord, lastRecord));
       });
@@ -48,6 +48,9 @@ function User(){
   
   return(
     <div className="user-outer">
+      <div className="search-head">
+          <h3>Filter rows :</h3>
+      </div>
       <div>
         <div className="search-bar">
           <div className="search-options">

@@ -10,6 +10,7 @@ td , th{
   margin: 0px 0px 0px 0px;
   border: 3px solid black;
   text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 th{
   font-size: 20px;
@@ -38,4 +39,42 @@ td{
   color: white;
   border-radius: 10px;
   cursor: pointer;
+}
+.td-input{
+  display: flex;
+  justify-content: center;
+}
+.td-input input{
+  text-align: center;
+}
+.td-buttons button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-row-ele{
+  display: flex;
+  margin-bottom: 15px;
+}
+.add-row-head , .add-row-ele {
+  margin-left: 70px;
+}
+.ar-in{
+  margin-right: 20px;
+}
+.ar-in input{
+  margin-left: 5px;
+}
+.ar-in button{
+  background-color: black;
+  color: white;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-head{
+  margin-left: 70px;
 }
